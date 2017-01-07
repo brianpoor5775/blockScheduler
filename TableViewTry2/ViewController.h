@@ -7,9 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "LunchConnector.h"
 
-@interface ViewController : UIViewController
-
+@interface ViewController : UIViewController <UITableViewDataSource,UITableViewDelegate>{
+    
+}
+@property (strong, nonatomic) LunchConnector *connectorClass;
 
 @end
 

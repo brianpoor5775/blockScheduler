@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D30DE0661E1D7D13008C3071 /* InputCourseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D30DE0651E1D7D13008C3071 /* InputCourseViewController.m */; };
+		D30DE06C1E1EA625008C3071 /* DayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D30DE06B1E1EA625008C3071 /* DayViewController.m */; };
+		D30DE0721E1FD657008C3071 /* LunchConnector.m in Sources */ = {isa = PBXBuildFile; fileRef = D30DE0711E1FD657008C3071 /* LunchConnector.m */; };
 		D3901C331E1C6C77001985DB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D3901C321E1C6C77001985DB /* main.m */; };
 		D3901C361E1C6C77001985DB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D3901C351E1C6C77001985DB /* AppDelegate.m */; };
 		D3901C391E1C6C77001985DB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D3901C381E1C6C77001985DB /* ViewController.m */; };
@@ -35,6 +38,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D30DE0641E1D7D13008C3071 /* InputCourseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InputCourseViewController.h; sourceTree = "<group>"; };
+		D30DE0651E1D7D13008C3071 /* InputCourseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InputCourseViewController.m; sourceTree = "<group>"; };
+		D30DE06A1E1EA625008C3071 /* DayViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DayViewController.h; sourceTree = "<group>"; };
+		D30DE06B1E1EA625008C3071 /* DayViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DayViewController.m; sourceTree = "<group>"; };
+		D30DE0701E1FD657008C3071 /* LunchConnector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LunchConnector.h; path = ../LunchConnector.h; sourceTree = "<group>"; };
+		D30DE0711E1FD657008C3071 /* LunchConnector.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LunchConnector.m; path = ../LunchConnector.m; sourceTree = "<group>"; };
 		D3901C2E1E1C6C77001985DB /* TableViewTry2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TableViewTry2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D3901C321E1C6C77001985DB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		D3901C341E1C6C77001985DB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -101,15 +110,21 @@
 		D3901C301E1C6C77001985DB /* TableViewTry2 */ = {
 			isa = PBXGroup;
 			children = (
+				D30DE0701E1FD657008C3071 /* LunchConnector.h */,
+				D30DE0711E1FD657008C3071 /* LunchConnector.m */,
 				D3901C341E1C6C77001985DB /* AppDelegate.h */,
 				D3901C351E1C6C77001985DB /* AppDelegate.m */,
 				D3901C371E1C6C77001985DB /* ViewController.h */,
 				D3901C381E1C6C77001985DB /* ViewController.m */,
 				D3901C3A1E1C6C77001985DB /* Main.storyboard */,
+				D30DE06A1E1EA625008C3071 /* DayViewController.h */,
+				D30DE06B1E1EA625008C3071 /* DayViewController.m */,
 				D3901C3D1E1C6C77001985DB /* Assets.xcassets */,
 				D3901C3F1E1C6C77001985DB /* LaunchScreen.storyboard */,
 				D3901C421E1C6C77001985DB /* Info.plist */,
 				D3901C311E1C6C77001985DB /* Supporting Files */,
+				D30DE0641E1D7D13008C3071 /* InputCourseViewController.h */,
+				D30DE0651E1D7D13008C3071 /* InputCourseViewController.m */,
 			);
 			path = TableViewTry2;
 			sourceTree = "<group>";
@@ -278,7 +293,10 @@
 			files = (
 				D3901C391E1C6C77001985DB /* ViewController.m in Sources */,
 				D3901C361E1C6C77001985DB /* AppDelegate.m in Sources */,
+				D30DE0661E1D7D13008C3071 /* InputCourseViewController.m in Sources */,
 				D3901C331E1C6C77001985DB /* main.m in Sources */,
+				D30DE0721E1FD657008C3071 /* LunchConnector.m in Sources */,
+				D30DE06C1E1EA625008C3071 /* DayViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -516,6 +534,7 @@
 				D3901C5D1E1C6C78001985DB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D3901C5E1E1C6C78001985DB /* Build configuration list for PBXNativeTarget "TableViewTry2Tests" */ = {
 			isa = XCConfigurationList;
@@ -524,6 +543,7 @@
 				D3901C601E1C6C78001985DB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D3901C611E1C6C78001985DB /* Build configuration list for PBXNativeTarget "TableViewTry2UITests" */ = {
 			isa = XCConfigurationList;
@@ -532,6 +552,7 @@
 				D3901C631E1C6C78001985DB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
